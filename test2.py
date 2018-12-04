@@ -51,6 +51,7 @@ def worker(conn, light_conn):
 	#time.sleep(300)
     conn.send(["title", '恢复文件系统'])
     print("test")
+    print("test")
     conn.send(['info', '恢复文件系统完毕，请重启设备'])
     conn.close()
     time.sleep(10)
